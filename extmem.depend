@@ -1,0 +1,241 @@
+# depslib dependency file v1.0
+1591860118 source:d:\codefield\extmem-c\extmem.c
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+
+1308709046 d:\codefield\extmem-c\extmem.h
+
+1554883444 source:d:\codefield\extmem-c\test.c
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+
+1673878137 source:d:\codefield\extmem-c\experiment_code\basement.c
+	"basement.h"
+	"..\extmem.h"
+
+1673880074 d:\codefield\extmem-c\experiment_code\basement.h
+	<stdlib.h>
+	<stdio.h>
+	"..\extmem.h"
+
+1673703966 source:d:\codefield\extmem-c\experiment_code\extra.c
+	<stdlib.h>
+	<stdio.h>
+	"..\extmem.h"
+	"extra.h"
+
+1673615637 d:\codefield\extmem-c\experiment_code\extra.h
+
+1673879964 source:d:\codefield\extmem-c\experiment_code\question1.c
+	"question1.h"
+
+1673878631 d:\codefield\extmem-c\experiment_code\question1.h
+	<stdlib.h>
+	<stdio.h>
+	"..\extmem.h"
+	"basement.h"
+
+1673703943 source:d:\codefield\extmem-c\experiment_code\question2.c
+	<stdlib.h>
+	<stdio.h>
+	"..\extmem.h"
+	"question2.h"
+
+1673615572 d:\codefield\extmem-c\experiment_code\question2.h
+
+1673703953 source:d:\codefield\extmem-c\experiment_code\question3.c
+	<stdlib.h>
+	<stdio.h>
+	"..\extmem.h"
+	"question3.h"
+
+1673615578 d:\codefield\extmem-c\experiment_code\question3.h
+
+1673703957 source:d:\codefield\extmem-c\experiment_code\question4.c
+	<stdlib.h>
+	<stdio.h>
+	"..\extmem.h"
+	"question4.h"
+
+1673615592 d:\codefield\extmem-c\experiment_code\question4.h
+
+1673703961 source:d:\codefield\extmem-c\experiment_code\question5.c
+	<stdlib.h>
+	<stdio.h>
+	"..\extmem.h"
+	"question5.h"
+
+1673615602 d:\codefield\extmem-c\experiment_code\question5.h
+
+1673880191 source:d:\codefield\extmem-c\experiment_code\main.c
+	<stdlib.h>
+	<stdio.h>
+	"..\extmem.h"
+	"question1.h"
+	"question2.h"
+	"question3.h"
+	"question4.h"
+	"question5.h"
+	"extra.h"
+
+1673886398 source:d:\codefield\extmem-c\main.c
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+	"question1.h"
+	"question2.h"
+	"question3.h"
+	"question4.h"
+	"question5.h"
+	"extra.h"
+
+1673885807 source:d:\codefield\extmem-c\extra.c
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+	"extra.h"
+
+1673615637 d:\codefield\extmem-c\extra.h
+
+1673885812 d:\codefield\extmem-c\question1.h
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+	"basement.h"
+
+1673885816 d:\codefield\extmem-c\basement.h
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+
+1673615572 d:\codefield\extmem-c\question2.h
+
+1673615578 d:\codefield\extmem-c\question3.h
+
+1673615592 d:\codefield\extmem-c\question4.h
+
+1673615602 d:\codefield\extmem-c\question5.h
+
+1673879964 source:d:\codefield\extmem-c\question1.c
+	"question1.h"
+
+1673885823 source:d:\codefield\extmem-c\question2.c
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+	"question2.h"
+
+1673885827 source:d:\codefield\extmem-c\question3.c
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+	"question3.h"
+
+1673885831 source:d:\codefield\extmem-c\question4.c
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+	"question4.h"
+
+1673885834 source:d:\codefield\extmem-c\question5.c
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+	"question5.h"
+
+1673886133 source:d:\codefield\extmem-c\basement.c
+	"basement.h"
+	"extmem.h"
+
+1674097618 source:c:\users\11413\clionprojects\untitled\basement.c
+	<stdbool.h>
+	"basement.h"
+	"extmem.h"
+
+1674097680 c:\users\11413\clionprojects\untitled\basement.h
+	<stdlib.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	"extmem.h"
+	"stdbool.h"
+
+1308709046 c:\users\11413\clionprojects\untitled\extmem.h
+
+1673921701 source:c:\users\11413\clionprojects\untitled\cmake-build-debug\cmakefiles\3.24.2\compileridc\cmakeccompilerid.c
+
+1673941154 source:c:\users\11413\clionprojects\untitled\extmem.c
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	"extmem.h"
+
+1673885807 source:c:\users\11413\clionprojects\untitled\extra.c
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+	"extra.h"
+
+1673615637 c:\users\11413\clionprojects\untitled\extra.h
+
+1674059374 source:c:\users\11413\clionprojects\untitled\question2.c
+	"question2.h"
+
+1674055032 c:\users\11413\clionprojects\untitled\question2.h
+	"basement.h"
+
+1674055476 source:c:\users\11413\clionprojects\untitled\question3.c
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+	"question3.h"
+	"question2.h"
+
+1674046069 c:\users\11413\clionprojects\untitled\question3.h
+	<stdbool.h>
+
+1674110125 source:c:\users\11413\clionprojects\untitled\question4.c
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+	"question4.h"
+	"basement.h"
+	"question5.h"
+	"question2.h"
+
+1674106578 c:\users\11413\clionprojects\untitled\question4.h
+
+1674108420 source:c:\users\11413\clionprojects\untitled\question5.c
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+	"question5.h"
+	"question3.h"
+	"question2.h"
+	"basement.h"
+
+1674108566 c:\users\11413\clionprojects\untitled\question5.h
+	"basement.h"
+
+1674108936 source:c:\users\11413\clionprojects\untitled\main.c
+	<stdlib.h>
+	<stdio.h>
+	<windows.h>
+	"extmem.h"
+	"question1.h"
+	"question2.h"
+	"question3.h"
+	"question4.h"
+	"question5.h"
+
+1674021755 c:\users\11413\clionprojects\untitled\question1.h
+
+1674042925 source:c:\users\11413\clionprojects\untitled\question1.c
+	"question1.h"
+	<stdlib.h>
+	<stdio.h>
+	"extmem.h"
+	"basement.h"
+

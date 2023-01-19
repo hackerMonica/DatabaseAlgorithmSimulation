@@ -1,0 +1,10 @@
+^C:\USERS\11413\CLIONPROJECTS\UNTITLED\CMAKELISTS.TXT
+setlocal
+"E:\APP\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -SC:/Users/11413/CLionProjects/untitled -BC:/Users/11413/CLionProjects/untitled/build --check-stamp-file C:/Users/11413/CLionProjects/untitled/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

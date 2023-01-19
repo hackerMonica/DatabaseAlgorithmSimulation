@@ -1,0 +1,22 @@
+# ninja log v5
+11	294	6958010383721265	CMakeFiles/untitled.dir/question1.c.obj	881e0ab15c291054
+2	793	6958028770369225	CMakeFiles/untitled.dir/main.c.obj	bb28760c11532f7
+2	124	6956443563855465	CMakeFiles/untitled.dir/extmem.c.obj	5c437e460cc5c1b
+47	299	6958010383761242	CMakeFiles/untitled.dir/basement.c.obj	486c4ce571719b6d
+31	290	6958010383691089	CMakeFiles/untitled.dir/question3.c.obj	d5113d139821880
+123	276	6956441981658012	untitled.exe	48d17981efbf318d
+22	300	6958010383771246	CMakeFiles/untitled.dir/question2.c.obj	6ca8521805799b36
+145	306	6958033947208420	C:/Users/11413/CLionProjects/untitled/untitled.exe	5430692ec3fd964d
+3	145	6958033945651252	CMakeFiles/untitled.dir/question5.c.obj	84d338962fc0c254
+16	185	6958111584324176	CMakeFiles/untitled.dir/question4.c.obj	2164e26a35d713f5
+9	189	6958111584354022	CMakeFiles/untitled.dir/question5.c.obj	84d338962fc0c254
+2	844	6958111590925540	CMakeFiles/untitled.dir/main.c.obj	bb28760c11532f7
+845	1042	6958111592829908	C:/Users/11413/CLionProjects/untitled/untitled.exe	6db1f6c5c498b047
+16	166	6958118732331561	CMakeFiles/untitled.dir/question4.c.obj	2164e26a35d713f5
+9	174	6958118732411527	CMakeFiles/untitled.dir/question5.c.obj	84d338962fc0c254
+2	878	6958118739459368	CMakeFiles/untitled.dir/main.c.obj	bb28760c11532f7
+878	1085	6958118741464382	C:/Users/11413/CLionProjects/untitled/untitled.exe	6db1f6c5c498b047
+2	831	6958121377912878	CMakeFiles/untitled.dir/main.c.obj	bb28760c11532f7
+832	992	6958121379476596	C:/Users/11413/CLionProjects/untitled/untitled.exe	6db1f6c5c498b047
+2	146	6958133389203775	CMakeFiles/untitled.dir/question4.c.obj	2164e26a35d713f5
+147	319	6958133390882722	C:/Users/11413/CLionProjects/untitled/untitled.exe	6db1f6c5c498b047

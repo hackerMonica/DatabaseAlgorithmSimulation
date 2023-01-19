@@ -1,0 +1,37 @@
+[
+{
+  "directory": "C:/Users/11413/CLionProjects/untitled/build",
+  "command": "D:/MinGW-w64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/gcc.exe   -g -std=gnu11 -o CMakeFiles/untitled.dir/main.c.obj -c C:/Users/11413/CLionProjects/untitled/main.c",
+  "file": "C:/Users/11413/CLionProjects/untitled/main.c"
+},
+{
+  "directory": "C:/Users/11413/CLionProjects/untitled/build",
+  "command": "D:/MinGW-w64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/gcc.exe   -g -std=gnu11 -o CMakeFiles/untitled.dir/question1.c.obj -c C:/Users/11413/CLionProjects/untitled/question1.c",
+  "file": "C:/Users/11413/CLionProjects/untitled/question1.c"
+},
+{
+  "directory": "C:/Users/11413/CLionProjects/untitled/build",
+  "command": "D:/MinGW-w64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/gcc.exe   -g -std=gnu11 -o CMakeFiles/untitled.dir/extmem.c.obj -c C:/Users/11413/CLionProjects/untitled/extmem.c",
+  "file": "C:/Users/11413/CLionProjects/untitled/extmem.c"
+},
+{
+  "directory": "C:/Users/11413/CLionProjects/untitled/build",
+  "command": "D:/MinGW-w64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/gcc.exe   -g -std=gnu11 -o CMakeFiles/untitled.dir/question2.c.obj -c C:/Users/11413/CLionProjects/untitled/question2.c",
+  "file": "C:/Users/11413/CLionProjects/untitled/question2.c"
+},
+{
+  "directory": "C:/Users/11413/CLionProjects/untitled/build",
+  "command": "D:/MinGW-w64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/gcc.exe   -g -std=gnu11 -o CMakeFiles/untitled.dir/question3.c.obj -c C:/Users/11413/CLionProjects/untitled/question3.c",
+  "file": "C:/Users/11413/CLionProjects/untitled/question3.c"
+},
+{
+  "directory": "C:/Users/11413/CLionProjects/untitled/build",
+  "command": "D:/MinGW-w64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/gcc.exe   -g -std=gnu11 -o CMakeFiles/untitled.dir/question5.c.obj -c C:/Users/11413/CLionProjects/untitled/question5.c",
+  "file": "C:/Users/11413/CLionProjects/untitled/question5.c"
+},
+{
+  "directory": "C:/Users/11413/CLionProjects/untitled/build",
+  "command": "D:/MinGW-w64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/gcc.exe   -g -std=gnu11 -o CMakeFiles/untitled.dir/basement.c.obj -c C:/Users/11413/CLionProjects/untitled/basement.c",
+  "file": "C:/Users/11413/CLionProjects/untitled/basement.c"
+}
+]

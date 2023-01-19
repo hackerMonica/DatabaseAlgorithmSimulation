@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.php": "php",
+        "basement.h": "c",
+        "extmem.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "question5.h": "c"
+    }
+}

@@ -34,11 +34,22 @@ void sort_S(){
     //sort S
     TPMMS_sort(S_BEGIN, S_END,201,true);
 }
+void swap(ENTRY number[7],unsigned char* buffer){
+    ENTRY term;
+    for (int i = 0; i < 7; i++)
+    {
+        term = number[i];
+        number[i].AC = string_int_1(buffer, i);
+        number[i].BD = string_int_2(buffer, i);
+        save_data(buffer, term.AC, term.BD, i);
+    }
+}
 // sort in group
 int sort_in_group(unsigned int start, unsigned int end, unsigned int write2blk, bool is_print){
     ENTRY number[7];
-    unsigned char data[9][64], *output, *term;
-    output = getNewBlockInBuffer(&buf);
+    unsigned char* data[9];
+//    output = getNewBlockInBuffer(&buf);
+//    output = (unsigned char*)malloc(64);
     unsigned int group_start, group_end, group_count=0;
     unsigned int output_count=0, output_block=write2blk;
     for (unsigned int i = start; i <= end; i=group_end+1) {
@@ -46,21 +57,21 @@ int sort_in_group(unsigned int start, unsigned int end, unsigned int write2blk, 
         group_count++;
         //sort in block
         for (unsigned int j = group_start; j <= group_end; ++j){
-            read_block(&buf, &term, j, false);
+            read_block(&buf, &data[j-group_start+1], j, false);
             //print term
 //            for (int i=0;i<64;i++){
 //                printf("%c",term[i]);
 //            }
             for (int k = 0; k < 7; ++k) {
-                number[k].AC = string_int_1(term, k);
-                number[k].BD = string_int_2(term, k);
+                number[k].AC = string_int_1(data[j-group_start+1], k);
+                number[k].BD = string_int_2(data[j-group_start+1], k);
             }
             quickly_sort(number, 0, 6);
             for (int k = 0; k < 7; ++k) {
-                save_data(term, number[k].AC, number[k].BD, k);
+                save_data(data[j-group_start+1], number[k].AC, number[k].BD, k);
             }
-            memcpy(data[j-group_start+1], term, sizeof(data[0]));
-            freeBlockInBuffer(term, &buf);
+//            memcpy(data[j-group_start+1], data[j-group_start+1], sizeof(data[0]));
+//            freeBlockInBuffer(data[j-group_start+1], &buf);
         }
         //sort in group
         int index_of_blk[group_end-group_start+2];
@@ -68,27 +79,32 @@ int sort_in_group(unsigned int start, unsigned int end, unsigned int write2blk, 
         ENTRY min;
         while ((min = get_min_number(data, index_of_blk, group_start, group_end)).AC != -1)
         {
-            save_data(output, min.AC, min.BD, output_count);
+//            save_data(output, min.AC, min.BD, output_count);
+            number[output_count] = min;
             output_count++;
             if (output_count == 7){
-                fill_next_index(output, output_block, output_count);
-                write_block(&buf, output_block, output);
+                swap(number, data[1]);
+                fill_next_index(data[1], output_block, output_count);
+                write_block(&buf, output_block, data[1]);
                 if (is_print){
                     printf("写出组内排序数据块 %d\n",output_block);
                 }
                 output_block++;
                 output_count = 0;
-                freeBlockInBuffer(output,&buf);
-                output = getNewBlockInBuffer(&buf);
+                swap(number, data[1]);
+                memset(number, 0, sizeof(number));
             }
+        }
+        for (int j = 1; j < 9; ++j) {
+            freeBlockInBuffer(data[j], &buf);
         }
     }
     //free blocks
-    freeBlockInBuffer(output,&buf);
+//    freeBlockInBuffer(output,&buf);
     return group_count;
 }
 //get the min number from group
-ENTRY get_min_number(unsigned char data[9][64], int index_of_blk[], int group_start, int group_end){
+ENTRY get_min_number(unsigned char* data[9], int index_of_blk[], int group_start, int group_end){
     ENTRY ans;
     ans.AC = 1000000;
     int min_index = -1;
@@ -164,6 +180,7 @@ void sort_between_group(unsigned int start, unsigned int end, unsigned int write
     for (int i=0;i<group_num;i++){
         freeBlockInBuffer(data[i],&buf);
     }
+    freeBlockInBuffer(output,&buf);
 }
 
 ENTRY get_min_number_2(unsigned char** data, int group_num, int index_of_blk[], int use_of_group[]){
